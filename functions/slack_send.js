@@ -4,8 +4,7 @@ exports = async function (message, urls) {
   const axios = require("axios").default;
 
   // Slack webhook URL to which the message will be posted.
-  const MY_SLACK_WEBHOOK_URL =
-    "https://hooks.slack.com/services/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";
+  const MY_SLACK_WEBHOOK_URL = "YOUR_WEBHOOK_URL";
 
   // Access the MongoDB Atlas service, database, and specific collection.
   const mongodb = context.services.get("mongodb-atlas");
