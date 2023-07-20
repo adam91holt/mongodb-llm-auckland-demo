@@ -1,0 +1,32 @@
+[
+  {
+    "name": "slack_send",
+    "private": false,
+    "run_as_system": true,
+    "disable_arg_logs": true
+  },
+  {
+    "name": "slack_webhook",
+    "private": false,
+    "run_as_system": true,
+    "disable_arg_logs": true
+  },
+  {
+    "name": "ask_question",
+    "private": false,
+    "run_as_system": true,
+    "disable_arg_logs": true
+  },
+  {
+    "name": "embed_openAI",
+    "private": false,
+    "run_as_system": true,
+    "disable_arg_logs": true
+  },
+  {
+    "name": "save_newsArticles",
+    "private": false,
+    "run_as_system": true,
+    "disable_arg_logs": true
+  }
+]

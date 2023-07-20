@@ -1,0 +1,5 @@
+{
+    "name": "openai_api_key",
+    "value": "OPENAI_KEY",
+    "from_secret": true
+}
