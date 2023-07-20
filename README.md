@@ -1,10 +1,10 @@
 # MUG-Demo Slack Bot Application
 
-This repository contains the code for a Slack bot application that uses MongoDB Realm serverless functions and OpenAI's API to generate funny responses to user queries based on news data.
+This repository contains the code for a Slack bot application that uses MongoDB App Services serverless functions and OpenAI's API to generate funny responses to user queries based on news data.
 
 ## Overview
 
-The application is powered by several JavaScript functions that interact with MongoDB, Slack, and OpenAI's API. It also uses MongoDB Realm triggers to automate certain tasks, such as fetching news stories and responding to user queries. The application runs on an hourly schedule, fetching the latest news stories and storing them in a MongoDB Atlas database.
+The application is powered by several JavaScript functions that interact with MongoDB, Slack, and OpenAI's API. It also uses MongoDB App Services triggers to automate certain tasks, such as fetching news stories and responding to user queries. The application runs on an hourly schedule, fetching the latest news stories and storing them in a MongoDB Atlas database.
 
 ## Demo
 
@@ -15,11 +15,11 @@ The application is powered by several JavaScript functions that interact with Mo
 
 Here is a brief overview of the key components:
 
-- `realm_config.json`: The main configuration file for the MongoDB Realm application.
+- `realm_config.json`: The main configuration file for the MongoDB App Services application.
 
 - `functions/`: This directory contains the JavaScript functions that power the application. These functions handle tasks such as sending messages to Slack, generating responses using OpenAI's API, saving news articles to the database, and responding to incoming webhooks from Slack.
 
-- `triggers/`: This directory contains the configurations for MongoDB Realm triggers. These triggers automate tasks such as fetching news stories and responding to user queries.
+- `triggers/`: This directory contains the configurations for MongoDB App Services triggers. These triggers automate tasks such as fetching news stories and responding to user queries.
 
 - `http_endpoints/` and `graphql/`: These directories contain configurations for the HTTP endpoints and GraphQL, respectively.
 
@@ -56,7 +56,7 @@ Configure your atlas search index after you have loaded the data.
 A good guide is here [MongoDB Vector Search Tutorial](https://www.mongodb.com/developer/products/atlas/semantic-search-mongodb-atlas-vector-search/)
 
 1. Clone this repository.
-2. Go to the MongoDB Realm dashboard and import the application configuration from the `realm_config.json` file.
+2. Go to the MongoDB App Services dashboard and import the application configuration from the `realm_config.json` file.
 3. Set up the MongoDB Atlas data source according to the configuration in `data_sources/mongodb-atlas/config.json`.
 4. Set up the authentication providers according to the configuration in `auth/providers.json`.
 5. Set up the OpenAI API key in `values/openai_api_key.json`.
