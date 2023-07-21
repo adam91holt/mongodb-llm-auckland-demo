@@ -8,7 +8,7 @@ The application is powered by several JavaScript functions that interact with Mo
 
 ## Demo
 
-[![Presentation](http://img.youtube.com/vi/_lOeYFDuGtQ/0.jpg)](http://www.youtube.com/watch?v=_lOeYFDuGtQ)
+[![Presentation](https://img.youtube.com/vi/F1zNefaoXqI/0.jpg)](https://www.youtube.com/watch?v=F1zNefaoXqI)
 
 
 ## Components
